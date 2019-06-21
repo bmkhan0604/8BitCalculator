@@ -27,3 +27,10 @@ Project by: Basem Khan
  * Address 10: Switches between Hex and Decimal Mode
  * Address 11: not programmed yet, (Negative Flag)
  * Address 12-14: Not Used
+
+## Adder:
+* 2 4-bit ripple carry adders used
+* Connect Cout of the Lower nibble to Cin of the Higher nibble
+* I conncted Cout of the Higher to an LED so that an Overflow can be seen by the user
+* Connect the output of the Adder directly to the EEPROM's A0-A7 lines
+* Currently Dip Switches are used as the Inputs for A and B
